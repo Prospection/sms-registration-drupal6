@@ -1,5 +1,0 @@
-name = SMS registration
-description = Allow users to register via SMS through ubercart check out [github.com/Prospection]
-core = 6.x
-dependencies[] = uc_product
-package = Custom
