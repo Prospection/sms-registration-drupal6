@@ -1,0 +1,16 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * Install file for SMS registration module.
+ */
+
+/**
+ * Implements hook_install() 
+ */
+function sms_registration_install() {
+  // Ensures that sms_registration is weighted properly.
+  db_query("UPDATE {system} SET weight = -5 WHERE name = 'sms_registration'");
+}
+

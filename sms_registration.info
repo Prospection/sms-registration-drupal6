@@ -1,0 +1,5 @@
+name = SMS registration
+description = Let users to register via SMS during Ubercart check out. [github.com/Prospection]
+core = 6.x
+dependencies[] = uc_product
+package = Custom
