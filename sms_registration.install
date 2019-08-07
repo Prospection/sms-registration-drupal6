@@ -11,6 +11,6 @@
  */
 function sms_registration_install() {
   // Ensures that sms_registration is weighted properly.
-  db_query("UPDATE {system} SET weight = -5 WHERE name = 'sms_registration'");
+  db_query("UPDATE {system} SET weight = -9 WHERE name = 'sms_registration'");
 }
 
